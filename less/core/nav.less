@@ -1,0 +1,60 @@
+.nav {
+  background-color: @nav;
+  /*box-shadow: 0 2px 5px rgba(0,0,0,0.26);*/
+
+  &__inner {
+    max-width: inherit;
+  }
+
+  &__btn {
+    background-color: white;
+    color: @red;
+
+    .no-touch &:hover {
+      background-color: @redDarker;
+      color: @nav-icon-inverted-hover;
+      .transition(background-color @duration ease-in, color @duration ease-in;);
+    }
+  }
+
+  &__pagelevelprogress-btn{
+    background-color: #fff;
+    border: none;
+    height: auto;
+    left: 0;
+    margin: 0;
+    right: auto;
+    padding: 2px 0;
+    position: fixed;
+    top: 56px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    width: 100%;
+  }
+
+  .pagelevelprogress__indicator {
+    border-color: #ffffff;
+    width: 100%;
+    height: 15px;
+    border-radius: 0;
+  }
+
+  .pagelevelprogress__indicator-inner {
+    background-color: white;
+    width: 100%;
+    height: 15px;
+  }
+
+  .pagelevelprogress__indicator-bar {
+    background-color: @red;
+
+    &:hover{
+      background-color: @redDarker;
+    }
+
+}
+
+}

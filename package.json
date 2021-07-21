@@ -1,0 +1,24 @@
+{
+  "name": "mars",
+  "version": "1.0.1",
+  "framework": ">=5.3",
+  "homepage": "https://example.com",
+  "issues": "https://example.com",
+  "theme": "mars",
+  "displayName": "Mars",
+  "description": "Different red colors",
+  "main": "js/theme.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-theme"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "targetAttribute": "_mars"
+}
