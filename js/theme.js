@@ -12,7 +12,7 @@ define([
 
   function onPostRender(view) {
     var model = view.model;
-    var theme = model.get('_navy');
+    var theme = model.get('_mars');
 
     if (!theme) return;
 
