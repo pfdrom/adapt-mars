@@ -1,9 +1,9 @@
 {
   "name": "mars",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "framework": ">=5.3",
-  "homepage": "https://example.com",
-  "issues": "https://example.com",
+  "homepage": "https://github.com/pfdrom/adapt-mars",
+  "issues": "https://github.com/pfdrom/adapt-mars/issues",
   "theme": "mars",
   "displayName": "Mars",
   "description": "Different red colors",
